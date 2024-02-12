@@ -1,0 +1,46 @@
+.info-container {
+  padding: 5rem 3rem;
+  background-color: rgb(235, 243, 255);
+  font-weight: 300;
+}
+
+.info-container h5 {
+  font-size: 1.7rem;
+}
+.info-container p {
+  font-size: 1.7rem;
+}
+.info-main {
+  padding: 0 2rem;
+}
+.info-main p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 2rem 1rem;
+}
+
+.info-main p:last-child {
+  margin-bottom: 3rem;
+}
+
+#info-header {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 3rem 0;
+}
+
+.info-footer {
+  padding: 4rem 0;
+}
+
+.info-footer img {
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  #info-header {
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 3rem 0;
+  }
+}

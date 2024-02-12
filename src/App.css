@@ -1,0 +1,32 @@
+.btn {
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  background-color: black;
+  border: none;
+  font-size: 1.7rem;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+.btn {
+  background-color: black;
+  color: white;
+}
+
+.section {
+  margin: 10rem 0;
+}
+.section h3 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .section h3 {
+    font-size: 3rem;
+  }
+}

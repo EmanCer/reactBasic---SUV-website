@@ -1,0 +1,48 @@
+.specs-section {
+  background-color: rgb(171, 189, 102);
+  color: black;
+  padding: 3rem 0;
+  margin-top: 0;
+}
+.specs-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.specs-btn {
+  margin: 2rem;
+}
+.specs-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.specs-wrapper {
+  padding: 1.5rem;
+}
+
+.specs-wrapper h4 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  padding: 1rem 0 0.5rem 0;
+  border-top: 1px solid black;
+}
+
+.specs-wrapper p {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .specs-section {
+    display: flex;
+    justify-content: center;
+  }
+  .specs-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+  }
+  .specs-wrapper {
+    padding: 4rem;
+  }
+}

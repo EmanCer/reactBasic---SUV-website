@@ -1,0 +1,148 @@
+.model-selector-header {
+  text-align: center;
+}
+
+.model-selector-header p {
+  margin: 3rem 0 6rem 0;
+  font-size: 2rem;
+}
+.model-selector-list {
+  margin: auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  list-style: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 2rem;
+}
+.model-selector-list button {
+  text-align: center;
+  margin: 2rem auto;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+.model-selector-list button:hover {
+  cursor: pointer;
+  color: white;
+  background: black;
+}
+.model-selector-list li .active {
+  color: rgb(171, 189, 102);
+  background-color: black;
+}
+
+.model-selector-cards {
+  width: 75%;
+  margin: auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 2rem 5rem;
+}
+
+.model-card-title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+.model-card img {
+  display: block;
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.model-card-price-consume {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 0;
+}
+
+.model-card-price-consume h4 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.model-card-price-consume p {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.model-card-description {
+  font-weight: 300;
+}
+
+.model-card-description p {
+  padding: 1rem 0;
+}
+
+.model-card-cta {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.model-card-cta a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+@media (min-width: 576px) {
+  .model-selector-list button {
+    font-size: 1.7rem;
+    padding: 1rem 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .model-selector-list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .model-selector-list button {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+  }
+  .model-card-description p {
+    font-size: 1.8rem;
+    padding: 1.5rem 0;
+  }
+  .model-selector-cards {
+    width: 65%;
+  }
+  .model-card-price-consume h4 {
+    font-size: 2.3rem;
+  }
+
+  .model-card-price-consume p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .model-selector-list button {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+  .model-selector-cards {
+    width: 60%;
+  }
+}
+@media (min-width: 1400px) {
+  .model-selector-cards {
+    width: 55%;
+  }
+}
+@media (min-width: 1980px) {
+  .model-selector-cards {
+    width: 50%;
+  }
+}
